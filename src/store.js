@@ -1,5 +1,5 @@
-import { createStore } from "react-redux";
-import { applyMiddleware } from "redux";
+
+import { applyMiddleware,createStore } from "redux";
 import thunk from "redux-thunk";
 import todosReduer from "./reducer/todosReducer";
 
